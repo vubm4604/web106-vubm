@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+}
+nav{
+    background-color: black;
+    
+}
+nav a{
+    display: inline-block;
+    color: white;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+@media all and (max-width: 768px){
+    body{
+        background-color: bisque;
+    }
+    nav{
+        background-color: green;
+    }
+    nav a{
+        width: 100%;
+        text-align: center;
+    }
+}

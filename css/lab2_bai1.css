@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+}
+
+@media all and (max-width: 480px){
+    body{
+        background-color: white;
+    }
+    .img{
+        width: 100%;
+    }
+}

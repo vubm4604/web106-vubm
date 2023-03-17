@@ -21,8 +21,7 @@ body {
 }
 .navbar {
     display: flex;
-    background-color:
-        #36B87D;
+    background-color:#36B87D;
 }
 .navbar a {
     color: #f2f2f2;
@@ -51,6 +50,10 @@ body {
 }
 .newimg {
     width: 100%;
+    background-color: #BCE2C9;
+    padding: 20px;
+}
+.fakeimg{
     background-color: #BCE2C9;
     padding: 20px;
 }

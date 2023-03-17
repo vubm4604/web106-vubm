@@ -1,0 +1,61 @@
+.content{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    
+}
+.item{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.img{
+    width: 100%;
+    border-radius: 10px;
+}
+.img1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 7px;
+}
+.input{
+    clear: both;
+    border-top: 1px solid black;
+}
+.content2{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    background-color: #F66092;
+    width: 100px;
+    height: 40px;
+    margin: 7px;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+}
+.IT{
+    float: left;
+    margin-left: 20px;
+    color:gray;
+}
+
+.wc{
+    color:gray;
+    margin-right: 10px;
+}
+b{
+    float: left;
+    margin-left: 20px;
+}
+.td{
+    margin-left: 8px;
+}
+@media screen and (max-width : 600px) {
+    .content {
+        flex-wrap: wrap;
+    }
+
+}

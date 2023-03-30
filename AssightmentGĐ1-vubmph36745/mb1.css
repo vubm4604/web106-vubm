@@ -1,0 +1,14 @@
+.card1{
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10rem;
+}
+
+
+@media screen and (max-width: 991px){
+    .card1{
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto; display: block;
+    }
+}

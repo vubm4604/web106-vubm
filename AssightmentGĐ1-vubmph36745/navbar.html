@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="imgs/logo.webp" alt="Bootstrap" width="30" >
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sản phẩm</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/slide_1_img.webp" class="d-block w-100 " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/2_2f9d653a543a411782f57751904088d4_large.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/334087839_1752593591801660_4576376949486613080_n.jpeg" class="d-block w-100 " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/35_7874cfa8178d4156b55a7e21d59ab6cc_large.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/5_7155ee53557347f3a1400e4172746965_large.webp" class="d-block w-100  " alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    
+          <!-- <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-md-3 g-2 mt-2 mb-2">
+              <div style=" text-align: center;" class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 23rem;">
+                  <img src="tải xuống (4).jpg" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="col-12 row me-0">
+                      <div class=" col-8">
+                        <h6 class="pb-0">Số lương bán: 5000</h6>
+                      </div>
+                      <div class="col-4 pe-0 text-end">
+                        <a href="#" class="btn btn-primary">Xem thêm</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 23rem;">
+                  <img src="tải xuống (4).jpg" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="col-12 row me-0">
+                      <div class=" col-8">
+                        <h6 class="pb-0">Số lương bán: 5000</h6>
+                      </div>
+                      <div class="col-4 pe-0 text-end">
+                        <a href="#" class="btn btn-primary">Xem thêm</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+<div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: 23rem;">
+              <img src="tải xuống (4).jpg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="col-12 row me-0">
+                  <div class=" col-8">
+                    <h6 class="pb-0">Số lương bán: 5000</h6>
+                  </div>
+                  <div class="col-4 pe-0 text-end">
+                    <a href="#" class="btn btn-primary">Xem thêm</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: 23rem;">
+              <img src="tải xuống (4).jpg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="col-12 row me-0">
+                  <div class=" col-8">
+                    <h6 class="pb-0">Số lương bán: 5000</h6>
+                  </div>
+                  <div class="col-4 pe-0 text-end">
+                    <a href="#" class="btn btn-primary">Xem thêm</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: 23rem;">
+              <img src="tải xuống (4).jpg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="col-12 row me-0">
+                  <div class=" col-8">
+                    <h6 class="pb-0">Số lương bán: 5000</h6>
+                  </div>
+                  <div class="col-4 pe-0 text-end">
+                    <a href="#" class="btn btn-primary">Xem thêm</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: 23rem;">
+              <img src="tải xuống (4).jpg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="col-12 row me-0">
+                  <div class=" col-8">
+                    <h6 class="pb-0">Số lương bán: 5000</h6>
+                  </div>
+                  <div class="col-4 pe-0 text-end">
+<a href="#" class="btn btn-primary">Xem thêm</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div> -->
+
+      <div style="margin-top: 1.5em;" class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col">
+            <div class="card h-100">
+              <img src="imgs/2_2f9d653a543a411782f57751904088d4_large.webp" class="card-img-top" alt="..." width="100" height="500"  >
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="col-12 row me-0">
+                  <div class=" col-8">
+                    <h6 class="pb-0">Số lương bán: 5000</h6>
+                  </div>
+                  <div class="col-4 pe-0 text-end">
+                    <a href="#">Xem thêm</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col">
+            <div class="card h-100">
+              <img src="imgs/334087839_1752593591801660_4576376949486613080_n.jpeg" class="card-img-top" alt="..." width="100" height="500">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="col-12 row me-0">
+                  <div class=" col-8">
+                    <h6 class="pb-0">Số lương bán: 5000</h6>
+                  </div>
+                  <div class="col-4 pe-0 text-end">
+                    <a href="#" >Xem thêm</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col">
+            <div class="card h-100">
+              <img src="imgs/35_7874cfa8178d4156b55a7e21d59ab6cc_large.webp" class="card-img-top" alt="..." width="100" height="500">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="col-12 row me-0">
+                  <div class=" col-8">
+                    <h6 class="pb-0">Số lương bán: 5000</h6>
+                  </div>
+                  <div class="col-4 pe-0 text-end">
+                    <a href="#">Xem thêm</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col">
+            <div class="card h-100">
+                <img src="imgs/5_7155ee53557347f3a1400e4172746965_large.webp" class="card-img-top" alt="..." width="100" height="500">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="col-12 row me-0">
+                  <div class=" col-8">
+                    <h6 class="pb-0">Số lương bán: 5000</h6>
+                  </div>
+                  <div class="col-4 pe-0 text-end">
+                    <a href="#">Xem thêm</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col">
+            <div class="card h-100">
+              <img src="imgs/5_a4ded4a41e484716918a85d2ae085732_large.webp" class="card-img-top" alt="..." width="100" height="500">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="col-12 row me-0">
+                  <div class=" col-8">
+                    <h6 class="pb-0">Số lương bán: 5000</h6>
+                  </div>
+                  <div class="col-4 pe-0 text-end">
+                    <a href="#">Xem thêm</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col">
+            <div class="card h-100">
+              <img src="imgs/2_2f9d653a543a411782f57751904088d4_large.webp" class="card-img-top" alt="..." width="100" height="500">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="col-12 row me-0">
+                  <div class=" col-8">
+                    <h6 class="pb-0">Số lương bán: 5000</h6>
+                  </div>
+                  <div class="col-4 pe-0 text-end">
+                    <a href="#">Xem thêm</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+        <!--Important link from source https://bootsnipp.com/snippets/rlXdE-->
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!-- Footer -->
+	<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Hỗ trợ khách hàng</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Tìm kiếm</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Giới thiệu </a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Chính sách đổi trả</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Chính sách bảo mật</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Điều khoản dịch vụ</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Chăm sóc khách hàng</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Tìm kiếm</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Giới thiệu</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Chính sách đổi trả</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Chính sách bảo mật</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Điều khoản dịch vụ</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Dịch vụ khách hàng</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Tìm kiếm</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Giới thiệu</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Chính sách đổi trả</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Chính sách bảo mật</a></li>
+						<li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Điều khoản dịch vụ</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p class="h6">Copyright © 2023 8YO Studio. Powered by Haravan<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
+				</div>
+				</hr>
+			</div>	
+		</div>
+	</section>
+	<!-- ./Footer -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js
+    "></script>
+</body>
+</html>

@@ -9,6 +9,7 @@
     .card1{
         flex-direction: column;
         text-align: center;
-        margin: 0 auto; display: block;
+        margin: 0 auto; 
+        display: block;
     }
 }
